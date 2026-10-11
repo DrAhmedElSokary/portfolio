@@ -917,3 +917,13 @@ svg {
     grid-template-columns: 1fr;
   }
 }
+
+/* Academic appointment, October 2026 */
+.hero-academic-note { color: var(--muted, #5d6b82); font-size: .95rem; margin-top: -.3rem; }
+.academic-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 2rem; align-items: start; }
+.academic-copy p { margin-bottom: 1.2rem; }
+.academic-copy h3 { margin-top: 1rem; }
+.academic-document { min-width: 0; }
+.academic-letter-image { background: #fff; border-radius: 12px; overflow: hidden; }
+.academic-letter-image img { display: block; width: 100%; height: auto; }
+@media (max-width: 768px) { .academic-grid { grid-template-columns: 1fr; } }
